@@ -1,0 +1,16 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<% resource_title = strip_html(strip_newlines(title || "")) %>
+<title><% if !resource_title.empty? && resource_title != "Index" %><%= resource_title %> | <%= metadata.title %><% else %><%= metadata.title %> — <%= metadata.tagline %><% end %></title>
+
+<meta name="description" content="<%= metadata.description %>" />
+<meta name="author" content="<%= metadata.author %>" />
+<meta property="og:title" content="<%= metadata.title %> — <%= metadata.tagline %>" />
+<meta property="og:description" content="<%= metadata.description %>" />
+<meta property="og:type" content="website" />
+<meta name="theme-color" content="#f8f8f2" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#282a36" media="(prefers-color-scheme: dark)" />
+
+<link rel="stylesheet" href="<%= asset_path :css %>" />
+<script src="<%= asset_path :js %>" defer></script>
+<%= live_reload_dev_js %>
