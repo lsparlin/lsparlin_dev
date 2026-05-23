@@ -20,6 +20,6 @@ page_class: home
     <li><a href="mailto:<%= site.metadata.email %>">email</a></li>
     <li><a href="<%= site.metadata.social.github %>">github</a></li>
     <li><a rel="me" href="<%= site.metadata.social.mastodon %>">ruby.social</a></li>
-    <li><a href="<%= relative_url '/posts/' %>">writing</a></li>
+    <!-- <li><a href="<%= relative_url '/posts/' %>">writing</a></li> -->
   </ul>
 </section>
