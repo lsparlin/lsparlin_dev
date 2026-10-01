@@ -21,7 +21,7 @@ RUN bundle install && npm ci --include=dev
 COPY . .
 RUN npm run esbuild && bin/bridgetown build
 
-FROM nginx:1.27-alpine
+FROM nginx:1.31-alpine
 
 ENV PORT=80
 COPY nginx.conf.template /etc/nginx/templates/default.conf.template
