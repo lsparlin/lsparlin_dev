@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ruby:4.0.2-slim AS build
+FROM ruby:4.0.7-slim AS build
 
 ENV BUNDLE_DEPLOYMENT=true \
     BUNDLE_PATH=/usr/local/bundle \
