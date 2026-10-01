@@ -33,7 +33,7 @@ Hosted on Railway, with new GitHub commits triggering deployments.
 
 Production runs only nginx, not Ruby, Node, or a Bridgetown application server. This is a lightweight static HTML service with low runtime compute and memory needs; the heavier work happens at build time. `PORT` defaults to 80.
 
-To check deployment locally: `docker build -t lewismsparlin.com .` then `docker run --rm -p 8080:80 lewismsparlin.com`.
+Suggested local Docker check (not yet verified): `docker build -t lewismsparlin.com .` then `docker run --rm -p 8080:80 lewismsparlin.com`. Railway is the established deployment environment.
 
 ## Working conventions
 
