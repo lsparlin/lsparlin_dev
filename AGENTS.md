@@ -6,7 +6,7 @@ This is a Bridgetown static site for Lewis M Sparlin’s personal website, lewis
 
 Keep the tone simple and preserve the light, terminal-inspired aesthetic: monospace headings and navigation, shell-style labels (`~$`, `~/`, `//`, `./`), dark text with purple accents, a subtle pastel background, and a rounded main panel with generous whitespace. Body copy stays readable and conversational; this is not a literal terminal emulator.
 
-The site is intentionally sparse; blog content is limited because the owner does not currently have much to publish. Do not invent posts or add filler content.
+Keep content purposeful and grounded in the owner’s voice. Support new posts and sections as the site grows, without adding filler or inventing personal claims.
 
 ## Key paths
 
