@@ -6,7 +6,7 @@ Bridgetown source for Lewis M Sparlin’s personal website.
 
 Prerequisites:
 
-- Ruby 4.0.2 (see `.ruby-version`)
+- Ruby 4.0.10 (see `.ruby-version`)
 - Node 22+
 - Bundler
 
