@@ -18,7 +18,7 @@ Keep content purposeful and grounded in the owner’s voice. Support new posts a
 
 ## Development and build
 
-- Install dependencies: `bundle install` and `npm ci` (Ruby 4.0.2, Node 22+).
+- Install dependencies: `bundle install` and `npm ci` (Ruby 4.0.10, Node 22+).
 - Start local development: `bin/bridgetown start` (localhost:4000).
 - Build assets and site: `npm run esbuild && bin/bridgetown build`.
 
